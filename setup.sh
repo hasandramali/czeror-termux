@@ -12,7 +12,8 @@ exit
 else
 echo "continues"
 fi
-megadl "https://mega.nz/file/wb5DmYxZ#T0q1BdePVDLvS1dhVIuuUobMCx1XXffHrvLuBbt2l7g"
+mv storage/shared/czeror-termux.tar .
+// \\ megadl "https://mega.nz/file/wb5DmYxZ#T0q1BdePVDLvS1dhVIuuUobMCx1XXffHrvLuBbt2l7g"
 tar -xf czeror-termux.tar
 rm czeror-termux.tar
 chmod +x czeror-termux/Ubuntu-i386.sh
@@ -27,3 +28,7 @@ fi
 mv czeror-termux/xashds ubuntu-fs/root/
 echo -e "\033[0;36m Type ./start-ubuntu.sh\033[0m"
 rm -rf czeror-termux
+chmod +x ubuntu-fs/root/xashds/newgame.sh
+chmod +x ubuntu-fs/root/xashds/loadgame.sh
+chmod +x ubuntu-fs/root/xashds/xash3d
+cp -r czeror-termux/start-ubuntu.sh .
