@@ -31,4 +31,3 @@ rm -rf czeror-termux
 chmod +x ubuntu-fs/root/xashds/newgame.sh
 chmod +x ubuntu-fs/root/xashds/loadgame.sh
 chmod +x ubuntu-fs/root/xashds/xash3d
-cp -r czeror-termux/start-ubuntu.sh .
