@@ -13,7 +13,7 @@ else
 echo "continues"
 fi
 mv storage/shared/czeror-termux.tar .
-// \\ megadl "https://mega.nz/file/wb5DmYxZ#T0q1BdePVDLvS1dhVIuuUobMCx1XXffHrvLuBbt2l7g"
+// \\ megadl "https://mega.nz/file/VD5XXB5b#XB8kFob9km4LncsVKP04b_ewL3UL1xYEnsgcR-Yh3rM"
 tar -xf czeror-termux.tar
 rm czeror-termux.tar
 chmod +x czeror-termux/Ubuntu-i386.sh
