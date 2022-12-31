@@ -12,7 +12,7 @@ exit
 else
 echo "continues"
 fi
-megadl "https://mega.nz/file/wfAVzQzY#dEVf9f3QEzCDgw68LwXgMEhh8QCt8iwLcd8JIGUnlr0"
+megadl "https://mega.nz/file/wb5DmYxZ#T0q1BdePVDLvS1dhVIuuUobMCx1XXffHrvLuBbt2l7g"
 tar -xf czeror-termux.tar
 rm czeror-termux.tar
 chmod +x Ubuntu-i386.sh
