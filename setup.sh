@@ -6,7 +6,7 @@ else
 echo "storage ztn var"
 fi
 
-pkg install wget proot megatools -y
+apt install wget proot megatools -y
 if [ ! -d "storage" ]; then
 exit
 else
