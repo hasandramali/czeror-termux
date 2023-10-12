@@ -19,7 +19,6 @@ chmod +x czeror-termux/Ubuntu-i386.sh
 bash czeror-termux/Ubuntu-i386.sh
 clear
 if [ ! -d "/data/data/com.termux/files/home/storage/shared/xash" ]; then
-echo -e "\e[1;31m ERROR:\e[0m Please Copy xashds/czeror folder to your xash directory."
 else
 cp -r czeror-termux/xashds/czeror ~/storage/shared/xash/
 fi
