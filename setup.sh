@@ -24,6 +24,12 @@ else
 cp -r czeror-termux/xashds/czeror ~/storage/shared/xash/
 fi
 
+if [ ! -d "/data/data/com.termux/files/home/storage/shared/.xash" ]; then
+echo -e "\e[1;31m ERROR:\e[0m Please Copy xashds/czeror folder to your xash directory."
+else
+cp -r czeror-termux/xashds/czeror ~/storage/shared/.xash/
+fi
+
 mv czeror-termux/xashds ubuntu-fs/root/
 echo -e "\033[0;36m Type ./newgame.sh to start new game\033[0m"
 rm -rf czeror-termux
